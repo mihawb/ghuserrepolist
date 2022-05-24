@@ -1,0 +1,41 @@
+:root {
+  --dark-bg: rgb(28, 33, 40);
+  --light-bg: rgb(34, 39, 46);
+  --dark-text: rgb(68, 76, 86);
+  --light-text: rgb(204, 204, 204);
+  --accent: rgb(37, 150, 158);
+}
+
+.HorizDiv {
+  width: auto;
+  height: 1px;
+  margin: 15px 10px 15px 10px;
+  background-color: var(--dark-text);
+}
+
+.VertDiv {
+  width: 1px;
+  height: auto;
+  margin: 15px 7px 15px 7px;
+  background-color: var(--dark-text);
+}
+
+.LoadingInfo {
+  margin: 0 auto;
+  padding: 0 3px;
+  width: fit-content;
+  background-color: var(--dark-bg);
+  color: var(--accent);
+  border: var(--accent) 1px solid;
+  border-radius: 5px;
+  font-size: 1rem;
+  opacity: 70%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--dark-bg);
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

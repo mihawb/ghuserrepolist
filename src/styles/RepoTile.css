@@ -1,0 +1,17 @@
+.RepoTile {
+  max-width: 600px;
+  background-color: var(--light-bg);
+  border: var(--dark-text) 1px solid;
+  margin: 10px 0 10px 0; 
+  padding: 10px;
+  min-height: 3rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.RTname {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}

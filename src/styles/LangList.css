@@ -1,0 +1,16 @@
+.LangBtn {
+  margin: 10px 0 3px 0;
+  width: fit-content;
+  background-color: var(--dark-bg);
+  color: var(--accent);
+  border: var(--accent) 1px solid;
+  border-radius: 5px;
+  font-size: 1rem;
+  opacity: 70%;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.LangBtn:hover {
+  cursor: pointer;
+  background-color: var(--dark-text);
+}

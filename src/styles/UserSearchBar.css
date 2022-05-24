@@ -1,0 +1,25 @@
+.UserSearchBar {
+  font-size: 1rem;
+  margin: 10px 15px 10px 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  background-color: var(--light-bg);
+  border: 1px var(--dark-text) solid;
+  color: var(--light-text);
+  border-radius: 7px;
+    
+}
+.UserSearchBar:focus {
+  outline: none;
+}
+
+.UserSearchBar:focus::placeholder {
+  opacity: 0;
+  transform: translateX(200px);
+}
+
+.UserSearchBar::placeholder {
+  transition: transform .2s ease-in-out, opacity .15s ease-in-out;
+}

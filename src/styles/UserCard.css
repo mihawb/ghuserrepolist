@@ -1,0 +1,43 @@
+.UserCard {
+  margin: 7vh auto 7vh auto;
+  z-index: 100;
+  background-color: var(--dark-bg);
+  border-radius: 10px;
+  border: var(--dark-text) 1px solid;
+  width: fit-content;
+  min-height: 100px;
+  display: flex;
+  color: var(--light-text);
+}
+
+.UserInfo {
+  width: fit-content;
+}
+
+.UCIavatar {
+  max-width: 300px;
+  border-radius: 50%;
+  border: var(--dark-text) 1px solid;
+  margin: 10px;
+}
+
+.UCIname {
+  font-family: Raleway;
+  font-weight: 900;
+  font-size: 2rem;
+  max-width: 300px;
+  margin: 0 10px 0 10px;
+}
+
+.UCIlogin {
+  font-style: italic;
+  font-size: 1.5rem;
+  opacity: 60%;
+  margin: 0 10px 0 10px;
+  max-width: 300px;
+}
+
+.UCIbio {
+  max-width: 300px;
+  margin: 7px 10px 0 10px;
+}
